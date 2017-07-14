@@ -282,7 +282,7 @@
 
     <!-- Custom Head -->
     
-<link rel="stylesheet" href="/blog/css/prism-xonokai.css" type="text/css"></head>
+</head>
 
 
     
@@ -402,6 +402,17 @@
 
     <!-- Qrcode -->
     
+        <button id="article-functions-qrcode-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">devices other</i>
+    <span class="visuallyhidden">devices other</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
+    <li class="mdl-menu__item">在其它设备中阅读本文章</li>
+    
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACaUlEQVR42u3aS27DMAwFwNz/0u22QGH3Pf3iBqNVUCe2xguRJfn6+uj1wsPDw8PDw8PDexjvFa/L2/24evX95J6//z62Nzw8PLwzvD+O2out3F+92m5y/6m94eHh4R3kJdvKj/gcn/DyV4aHh4f3TN79Md2Ck2/i4eHhfSrvHpyHEzw8PLz/whs7rO+LsGP3eVutBQ8PDy/m5U2m85+P9vfw8PDwAl490lS2tfL22KqFh4eHt5uXH8Qz7JlRg3oIDA8PD28zrw0JCWksGLT3iYoReHh4eBt4ebO/LVjkpBwWDR/g4eHhbeblYSB/fH7cJ6+mHkHAw8PDO8jLH98m3PmQaxtCisCAh4eHt4g3luy2Q6j5cd+WhgdnyvDw8PAW8dqW1Xw4SZ6b7woPDw/vDG+sTJAc/fNpdPJy8fDw8M7zkh+3B31e/F2VduPh4eGd5LVtrbakm48UtENdRQMMDw8PbwMv2UqeWOfBoH3u4H8MeHh4eEt5bYE1Sabz0nDeTsuLHXh4eHhneHm7Ky89tC+xHSMoAgMeHh7eNl5eaGjHAnJAWyKJqtR4eHh4G3irCqljL2ssNZ+aKcPDw8NbxFsVKhLAWJCYCgx4eHh423hjaXR7daa8+0fCjYeHh7eZ1662qd+OI+SjBnh4eHjv4rUt/LVDBnkSPzV0hYeHh7eBN7/1sWZ/MUqFh4eH90hefkDPJ8T5HuoQhYeHh/dgXoscS+JbMB4eHt6TeXnJ4D4Rz1tcb4t7eHh4eBPFiLGBgLHttuNfeHh4eCd5MwluW27IGW3hGA8PD+8M7/MWHh4eHh4eHh7eA9Y3XcsMN7S7W3IAAAAASUVORK5CYII=">
+    
+</ul>
+    
 
     <!-- Tags (bookmark) -->
     
@@ -485,16 +496,16 @@
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
         <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;
 </code></pre>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class=" language-bash"><code class="language-bash">$ hexo server
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server
 </code></pre>
 <p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class=" language-bash"><code class="language-bash">$ hexo generate
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate
 </code></pre>
 <p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class=" language-bash"><code class="language-bash">$ hexo deploy
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy
 </code></pre>
 <p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
 
